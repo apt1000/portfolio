@@ -10,7 +10,7 @@ import os, shutil
 # In[2]:
 
 
-path = r'C:/Users/Austin/Documents/Website/Projects/Python/'
+path = r'./Python/'
 
 
 # In[3]:
