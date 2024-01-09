@@ -85,5 +85,5 @@ df
 # In[17]:
 
 
-df.to_csv(r'C:\Users\Austin\Documents\Website\Projects\Python\Companies.csv', index = False)
+df.to_csv(r'\Python\Companies.csv', index = False)
 
