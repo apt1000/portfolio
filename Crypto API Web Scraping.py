@@ -91,10 +91,10 @@ def get_coin_data():
     df2['timestamp'] = pd.to_datetime('now', utc = True)
     
     #write new data to csv file
-    if not os.path.isfile(r"C:\Users\Austin\Documents\Website\Projects\Python\CryptoCaps.csv"): 
-        df.to_csv(r"C:\Users\Austin\Documents\Website\Projects\Python\CryptoCaps.csv", header = 'column_names')
+    if not os.path.isfile(r"\Python\CryptoCaps.csv"): 
+        df.to_csv(r"\Python\CryptoCaps.csv", header = 'column_names')
     else:
-        df.to_csv(r"C:\Users\Austin\Documents\Website\Projects\Python\CryptoCaps.csv", header = False, mode = 'a')
+        df.to_csv(r"\Python\CryptoCaps.csv", header = False, mode = 'a')
 
 
 # In[13]:
@@ -115,7 +115,7 @@ exit()
 # In[14]:
 
 
-new_df = pd.read_csv(r"C:\Users\Austin\Documents\Website\Projects\Python\CryptoCaps.csv")
+new_df = pd.read_csv(r"\Python\CryptoCaps.csv")
 
 
 # In[16]:
