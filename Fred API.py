@@ -23,7 +23,7 @@ color_pal = plt.rcParams['axes.prop_cycle'].by_key()['color']
 
 from full_fred.fred import Fred
 
-fred = Fred(r"C:\Users\Austin\Documents\Website\Projects\Python\fredAPIkey.txt")
+fred = Fred(r"fredAPIkey.txt")
 
 fred.get_api_key_file()
 
