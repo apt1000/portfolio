@@ -17,7 +17,7 @@ WHERE Social_drinker = 0
 		FROM attendance
 	);
 
---Increase compensation for nonsmokers
+--Count nonsmokers
 SELECT COUNT(*) AS nonsmokers
 FROM attendance
 WHERE Social_smoker = 0;
